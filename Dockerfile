@@ -1,7 +1,5 @@
 FROM ubuntu:20.04
 
-MAINTANER Your Name "pdorczuk@gmail.com"
-
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
 
